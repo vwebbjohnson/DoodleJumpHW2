@@ -316,6 +316,7 @@ GameObject:
   - component: {fileID: 1083827014}
   - component: {fileID: 1083827013}
   - component: {fileID: 1083827016}
+  - component: {fileID: 1083827017}
   m_Layer: 0
   m_Name: Mouse
   m_TagString: Untagged
@@ -435,6 +436,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 4.7155385, y: 0.6432556}
   m_EdgeRadius: 0
+--- !u!114 &1083827017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1083827012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5108d0aa91a824ff78843ef9fe5454e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementSpeed: 10
 --- !u!1 &1104268399
 GameObject:
   m_ObjectHideFlags: 0
